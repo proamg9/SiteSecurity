@@ -5,8 +5,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 30vmin;
+  pointer-events: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,7 +16,6 @@
 }
 
 .App-header {
-
   min-height: auto;
   display: flex;
   flex-direction: column;
@@ -27,17 +26,19 @@
 }
 
 .form-one {
-  display :flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 33px;
   color: white;
   flex-grow: 4;
 }
-
-input[type=text]:focus {
+ {
+  /*
+input[type="text"]:focus {
   border: 3px solid #555;
-
+}
+*/
 }
 .App-link {
   color: #61dafb;

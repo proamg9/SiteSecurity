@@ -10,14 +10,21 @@
   "author": "m zahid",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "^1.9.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
     "pg": "^7.15.1",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.3"
+    "sequelize": "^5.21.3",
+    "superagent": "^6.1.0",
+    "validator": "^13.1.17"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
